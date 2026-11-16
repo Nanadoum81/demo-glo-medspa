@@ -1,36 +1,14 @@
 (function () {
-  // --- Sample conversation replay ---
-  var msgs = Array.prototype.slice.call(document.querySelectorAll('#simMsgs .msg'));
-  var done = document.getElementById('simDone');
-  var timers = [];
-  function playSim() {
-    timers.forEach(clearTimeout); timers = [];
-    msgs.forEach(function (m) { m.classList.remove('show'); });
-    if (done) done.classList.remove('show');
-    msgs.forEach(function (m, i) {
-      timers.push(setTimeout(function () { m.classList.add('show'); }, 500 + i * 1100));
-    });
-    timers.push(setTimeout(function () { if (done) done.classList.add('show'); }, 500 + msgs.length * 1100 + 300));
-  }
-  var replay = document.getElementById('simReplay');
-  if (replay) replay.addEventListener('click', playSim);
-  if ('IntersectionObserver' in window && msgs.length) {
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (e) { if (e.isIntersecting) { playSim(); io.disconnect(); } });
-    }, { threshold: 0.3 });
-    io.observe(document.getElementById('simMsgs'));
-  } else { playSim(); }
-
-  // --- Demo form ---
-  var form = document.getElementById('bookForm');
+  // --- Contact form ---
+  var form = document.getElementById('contactForm');
   if (form) form.addEventListener('submit', function (ev) {
     ev.preventDefault();
     form.style.display = 'none';
-    var ok = document.getElementById('bookOk');
+    var ok = document.getElementById('contactOk');
     if (ok) { ok.style.display = 'block'; ok.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
   });
 
-  // --- Camila chat demo ---
+  // --- Camila, Glo's front desk ---
   var BIZ = window.BIZ || {};
   var kb = BIZ.kb || {};
   var panel = document.getElementById('chatPanel');
