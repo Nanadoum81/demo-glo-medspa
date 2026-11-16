@@ -166,7 +166,7 @@ form.cform button{width:100%;margin-top:26px}
 /* footer */
 footer.site{background:var(--dark);color:var(--bone);padding:80px 0 120px}
 footer.site a{color:var(--gold-soft)}
-.foot-logo{height:64px;width:auto;margin:0 auto;filter:brightness(0) invert(1)}
+.foot-logo{height:64px;width:auto;margin:0 auto;opacity:.92}
 .foot-nav{display:flex;gap:28px;justify-content:center;flex-wrap:wrap;margin:30px 0 8px}
 .foot-nav a{color:var(--bone);text-decoration:none;font-size:.74rem;letter-spacing:.22em;text-transform:uppercase;font-weight:500}
 .foot-nav a:hover{color:var(--gold-soft)}
