@@ -1,0 +1,40 @@
+# Glo Medspa
+
+> Glo Medspa is a medical spa in Scottsdale, Arizona, founded in 2013 by Charles Small, BSN, RN. It offers injectables, laser and skin treatments, facials, body contouring and wellness services, with a natural-results, no-pressure philosophy. Clients are seen by appointment. New clients receive 10% off all services.
+
+## Contact
+
+- Address: 10505 N 69th St #1000, Scottsdale, AZ 85253
+- Phone: (480) 245-6881
+- Email: glomedspa1@gmail.com
+- Booking: https://booknow.appointment-plus.com/82k0ek10/
+- Hours: By appointment
+
+## Team
+
+- Charles Small, BSN, RN — Founder and injector; 15 years of critical care experience; basic and advanced certifications in Botox and Juvederm injection techniques; member, Dermatology Nurses' Association and American Society of Plastic Surgical Nurses
+- Ewelina — Lead Esthetician
+- Tara — Nurse Injector; over nine years of experience across critical care, surgery and plastics, including a tenure at the Mayo Clinic
+- Rachel — Front Desk and Office Manager
+
+## Services
+
+- Injectables: Botox, Dysport, Letybo, dermal fillers (lip, cheek, chin, jaw, tear trough, smile line), liquid rhinoplasty, PDO threads, Kybella
+- Laser & Skin: Nouvaderm laser, Forma skin tightening, microneedling, eMatrix, photo facial
+- Facials & Body: Hydrafacial, Fire & Ice Facial, Honey Enzyme Facial, microdermabrasion, dermaplaning, VelaShape body contouring, TruSculpt iD, Morpheus8, Perfect Peel, liquid facelift
+- Wellness: B12 shots, MIC injections, filler dissolve (hyaluronidase)
+
+## Recognition
+
+- ThreeBestRated — Top 3 Med Spa, Scottsdale
+- People's Best Rating — 2025 Award, Best Med Spa, Scottsdale
+- Best of Scottsdale — 2020
+- Rated 4.8 on Google
+
+## Pages
+
+- Home: https://demo-glo-medspa-emmanuel-nanadoum-s-projects.vercel.app/
+- Services: https://demo-glo-medspa-emmanuel-nanadoum-s-projects.vercel.app/services.html
+- About: https://demo-glo-medspa-emmanuel-nanadoum-s-projects.vercel.app/about.html
+- Reviews: https://demo-glo-medspa-emmanuel-nanadoum-s-projects.vercel.app/reviews.html
+- Contact: https://demo-glo-medspa-emmanuel-nanadoum-s-projects.vercel.app/contact.html
