@@ -24,6 +24,7 @@
 </div></div>
 
 <header class="site"><div class="wrap head-wrap">
+<button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
 <div class="head-side left"><a class="btn ghost small" href="tel:+14802456881">(480) 245-6881</a></div>
 <a class="brand" href="index.html"><img src="assets/logo.png" alt="Glo Medspa"></a>
 <nav class="main"><a href="index.html">Home</a><a href="services.html">Services</a><a href="about.html" class="active">About</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a></nav>
@@ -91,5 +92,11 @@
 
 <div class="stickybar"><a href="tel:+14802456881">Call</a><a class="primary" href="https://booknow.appointment-plus.com/82k0ek10/" target="_blank" rel="noopener">Book</a><a href="https://www.google.com/maps/search/?api=1&query=10505+N+69th+St+%231000+Scottsdale+AZ+85253" target="_blank" rel="noopener">Directions</a></div>
 <script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6afba85775f0c3a5207d0728"></script>
+<script>
+document.querySelector('.menu-btn').addEventListener('click',function(){
+  var h=document.querySelector('header.site');var open=h.classList.toggle('menu-open');
+  this.setAttribute('aria-expanded',open);this.setAttribute('aria-label',open?'Close menu':'Open menu');
+});
+</script>
 </body>
 </html>

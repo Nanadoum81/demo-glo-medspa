@@ -246,3 +246,15 @@ section[id]{scroll-margin-top:84px}
   form.cform .row{grid-template-columns:1fr}
   footer.site{padding-bottom:150px}
 }
+
+/* ===== Mobile header 2026-11-17 (Emmanuel): logo centered, hamburger on the left ===== */
+.menu-btn{display:none}
+@media(max-width:900px){
+  .menu-btn{display:flex;flex-direction:column;justify-content:center;gap:5px;width:44px;height:44px;padding:11px;background:none;border:0;cursor:pointer;grid-column:1;grid-row:1;justify-self:start}
+  .menu-btn span{display:block;height:2px;border-radius:2px;background:var(--ink)}
+  header.site .head-side.left{display:none}
+  header.site .brand{grid-column:2;grid-row:1;justify-self:center}
+  header.site.menu-open nav.main{display:flex;flex-direction:column;align-items:center;gap:0;padding-top:6px}
+  header.site.menu-open nav.main a{padding:13px 2px;width:100%;text-align:center;border-bottom:1px solid var(--line)}
+  header.site.menu-open nav.main a:last-child{border-bottom:0}
+}
